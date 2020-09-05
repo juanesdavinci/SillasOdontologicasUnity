@@ -39,6 +39,19 @@ public class UnitController : MonoBehaviour
         currAnimator.StartAnimation(anim);
     }
     
+    public void StartIngresar()
+    {
+        currAnimator.StartIngresar();
+    }
+    
+    public void StartExaminar()
+    {
+        currAnimator.StartExaminar();
+    }
+
+    
+    
+    
     //Lift Back
     public void OnLiftBack()
     {

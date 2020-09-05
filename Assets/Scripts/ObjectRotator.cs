@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-     
+using Cinemachine;
+
 public class ObjectRotator : MonoBehaviour
 {
     public GameObject Target;     
@@ -9,12 +10,17 @@ public class ObjectRotator : MonoBehaviour
     private Vector3 _mouseOffset;
     private Vector3 _rotation;
     private bool _isRotating;
-
+    public float PanSpeed;
+    public CinemachineVirtualCamera cam;
+    
     public Vector2 ScrollLimit;
-         
+    private bool _isPanning;
+
+    private CinemachineComposer comp;
     void Start ()
     {
         _rotation = Vector3.zero;
+        comp = cam.GetCinemachineComponent<CinemachineComposer>();
     }
          
     void Update()
@@ -40,8 +46,13 @@ public class ObjectRotator : MonoBehaviour
             
             // store mouse
             _mouseReference = Input.mousePosition;
+        }else if (_isPanning)
+        {
+            _mouseOffset = (Input.mousePosition - _mouseReference);
+            comp.m_TrackedObjectOffset -= transform.InverseTransformDirection(_mouseOffset * PanSpeed); 
         }
 
+        // Rotate
         if (Input.GetMouseButtonDown(0))
         {
             OnMouseAction();
@@ -51,6 +62,17 @@ public class ObjectRotator : MonoBehaviour
             OnMouseStopAction();
         }
 
+        // Pan
+        if (Input.GetMouseButtonDown(1))
+        {
+            OnMouseActionPan();
+        }
+        if (Input.GetMouseButtonUp(1))
+        {
+            OnMouseStopActionPan();
+        }
+        
+        // Scroll
         if (Input.mouseScrollDelta.magnitude > 0)
         {
             if (Input.mouseScrollDelta.y > 0)
@@ -66,7 +88,8 @@ public class ObjectRotator : MonoBehaviour
         }
         
     }
-         
+
+
     void OnMouseAction()
     {
         // rotating flag
@@ -80,6 +103,22 @@ public class ObjectRotator : MonoBehaviour
     {
         // rotating flag
         _isRotating = false;
+    }
+    
+    
+    void OnMouseActionPan()
+    {
+        // rotating flag
+        _isPanning = true;
+             
+        // store mouse
+        _mouseReference = Input.mousePosition;
+    }
+         
+    void OnMouseStopActionPan()
+    {
+        // rotating flag
+        _isPanning = false;
     }
          
 }

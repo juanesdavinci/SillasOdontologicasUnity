@@ -29,9 +29,27 @@ public class AnimatorCtrl : MonoBehaviour
     public void StartAnimation(string anim)
     {
         Animator.speed = 1;
-        Animator.SetTrigger(anim);
-        
-        
+//        Animator.SetTrigger(anim);
+        ResetStates();
+        Animator.SetBool(anim, true);
+    }
+
+    public void StartIngresar()
+    {
+        StartCoroutine(Ingresar());
+    }
+    
+    public void StartExaminar()
+    {
+        StartCoroutine(Examinar());
+    }
+    
+    private void ResetStates()
+    {
+        Animator.SetBool("Examinar", false);
+        Animator.SetTrigger("examinar");
+        Animator.SetBool("Ingresar", false);
+        Animator.SetTrigger("ingresoingreso");
     }
     
     //Lift Back
@@ -75,9 +93,9 @@ public class AnimatorCtrl : MonoBehaviour
     }
     
     
-    private void PlayAnimationStep(string animation, float step)
+    private void PlayAnimationStep(string animation, float step, int layer)
     {
-        Animator.Play(animation, 0, step);
+        Animator.Play(animation, layer, step);
         Animator.speed = 0;
     }
     
@@ -85,7 +103,7 @@ public class AnimatorCtrl : MonoBehaviour
     {
         if(timeBack > 0)
             timeBack-= 0.01f;
-        PlayAnimationStep("bajarEspaldar", timeBack);
+        PlayAnimationStep("bajarEspaldar", timeBack, 1);
     }
 
     public void LowerBack()
@@ -93,7 +111,7 @@ public class AnimatorCtrl : MonoBehaviour
     
         if(timeBack < 1)
             timeBack += 0.01f;
-        PlayAnimationStep("SubeEspaldar", (1-timeBack));
+        PlayAnimationStep("SubeEspaldar", (1-timeBack), 1);
     }   
     
     public void LiftChair()
@@ -101,14 +119,14 @@ public class AnimatorCtrl : MonoBehaviour
         
         if(timeChair < 1)
             timeChair += 0.01f;
-        PlayAnimationStep("subeUnidad", timeChair);
+        PlayAnimationStep("subeUnidad", timeChair,0);
     }    
     
     public void LowerChair()
     {
         if(timeChair > 0)
             timeChair-= 0.01f;
-        PlayAnimationStep("bajaUnidad", (1-timeChair));
+        PlayAnimationStep("bajaUnidad", (1-timeChair),0);
     }
     
     private void Update()
@@ -133,5 +151,26 @@ public class AnimatorCtrl : MonoBehaviour
             LowerChair();
         }
     
+    }
+
+
+    public IEnumerator Ingresar()
+    {
+        while (!(timeBack <= 0 && timeChair <= 0))
+        {
+            LiftBack();
+            LowerChair();
+            yield return new WaitForEndOfFrame();
+        }
+    }
+    
+    public IEnumerator Examinar()
+    {
+        while (!(timeBack >= 1 && timeChair >= 1))
+        {
+            LowerBack();
+            LiftChair();
+            yield return new WaitForEndOfFrame();
+        }
     }
 }

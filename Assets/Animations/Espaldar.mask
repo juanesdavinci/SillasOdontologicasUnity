@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Espaldar
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: brazo
+    m_Weight: 0
+  - m_Path: brazo/silla
+    m_Weight: 0
+  - m_Path: brazo/silla/escupidero
+    m_Weight: 0
+  - m_Path: brazo/silla/espaldar
+    m_Weight: 1
+  - m_Path: brazo/silla/espaldar/soporte_espaldar
+    m_Weight: 1
+  - m_Path: brazo/silla/mangueras_p2
+    m_Weight: 0
+  - m_Path: brazo/silla/polySurface45
+    m_Weight: 0
+  - m_Path: brazo/silla/polySurface48
+    m_Weight: 0
+  - m_Path: brazo/silla/polySurface48/mangueras
+    m_Weight: 1
+  - m_Path: brazo/silla/polySurface48/mangueras/piezas1
+    m_Weight: 1
+  - m_Path: brazo/silla/polySurface48/UNIDAD_03:transparencias
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_bandeja2
+    m_Weight: 0
+  - m_Path: brazo/silla/soporte_bandeja2/brazo_bandeja
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_bandeja2/brazo_bandeja/soporte_bandeja1
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_bandeja2/brazo_bandeja/soporte_bandeja1/polySurface1
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_bandeja2/brazo_bandeja/soporte_bandeja1/polySurface1/bandeja1
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_bandeja2/brazo_bandeja/soporte_bandeja1/polySurface1/bandeja1/mangueras_p1
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_bandeja2/brazo_bandeja/soporte_bandeja1/polySurface1/bandeja1/pieza2
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_bandeja2/brazo_bandeja/soporte_bandeja1/polySurface1/cables2
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_bandeja2/cables
+    m_Weight: 1
+  - m_Path: manguera2
+    m_Weight: 0
+  - m_Path: manguera3
+    m_Weight: 0
