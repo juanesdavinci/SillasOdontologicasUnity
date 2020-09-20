@@ -48,9 +48,6 @@ public class UnitController : MonoBehaviour
     {
         currAnimator.StartExaminar();
     }
-
-    
-    
     
     //Lift Back
     public void OnLiftBack()
@@ -95,6 +92,26 @@ public class UnitController : MonoBehaviour
     public void ChangeColor(int c)
     {
         ChairColor.ChangeColor(c);
+    }
+    
+    public void EnableTapWater(bool isActive)
+    {
+        currAnimator.EnableTapWater(isActive);
+    }
+    
+    public void EnablePipeWater(bool isActive)
+    {
+        currAnimator.EnablePipeWater(isActive);
+    }
+
+    public void EnableLight(bool isEnabled)
+    {
+        currAnimator.EnableLight(isEnabled);
+    }
+    
+    public void SetLightIntensity(int intensity)
+    {
+        currAnimator.SetLightIntensity(intensity);
     }
 }
 

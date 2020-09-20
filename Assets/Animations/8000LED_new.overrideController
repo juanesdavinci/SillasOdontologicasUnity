@@ -6,7 +6,7 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unidad2_new
+  m_Name: 8000LED_new
   m_Controller: {fileID: 9100000, guid: 6e52e04ca473c44d0b0a55a8dc6c2c4b, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 4b5e04b1becf246019e174181384a2fb, type: 2}

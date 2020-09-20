@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class AnimatorCtrl : MonoBehaviour
 {
+    public GameObject TapWater;
+    public GameObject PipeWater;
+    public Light Spotlight;
+    public Light SubSpotlight;
+    
     public float timeBack = 1;
     public float timeChair = 1;
 
@@ -172,5 +177,26 @@ public class AnimatorCtrl : MonoBehaviour
             LiftChair();
             yield return new WaitForEndOfFrame();
         }
+    }
+
+    public void EnableTapWater(bool isActive)
+    {
+        TapWater.SetActive(isActive);
+    }
+    
+    public void EnablePipeWater(bool isActive)
+    {
+        PipeWater.SetActive(isActive);
+    }
+
+    public void EnableLight(bool isEnabled)
+    {
+        Spotlight.gameObject.SetActive(isEnabled);
+    }
+
+    public void SetLightIntensity(int intensity)
+    {
+        Spotlight.intensity = intensity;
+        SubSpotlight.intensity = intensity;
     }
 }

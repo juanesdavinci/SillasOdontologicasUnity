@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 750aa77952f6c428fa6e97102a13d965
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -500343880916879400
+    second: PACK DE ICONOS_VENTANA EMERGENTE_0
+  - first:
+      213: 4041089734221109296
+    second: PACK DE ICONOS_VENTANA EMERGENTE_1
+  - first:
+      213: 1105010676190633474
+    second: PACK DE ICONOS_VENTANA EMERGENTE_2
+  - first:
+      213: -3250154524996694763
+    second: PACK DE ICONOS_VENTANA EMERGENTE_3
+  - first:
+      213: -6706858432728855679
+    second: PACK DE ICONOS_VENTANA EMERGENTE_4
+  - first:
+      213: -384827916683724857
+    second: PACK DE ICONOS_VENTANA EMERGENTE_5
+  - first:
+      213: -806650085907113932
+    second: PACK DE ICONOS_VENTANA EMERGENTE_6
+  - first:
+      213: 7539876446241955267
+    second: PACK DE ICONOS_VENTANA EMERGENTE_7
+  - first:
+      213: -1374072116308197243
+    second: PACK DE ICONOS_VENTANA EMERGENTE_8
+  - first:
+      213: 3301432069762478364
+    second: PACK DE ICONOS_VENTANA EMERGENTE_9
+  - first:
+      213: -689437206461775260
+    second: PACK DE ICONOS_VENTANA EMERGENTE_10
+  - first:
+      213: -4394463779503049291
+    second: PACK DE ICONOS_VENTANA EMERGENTE_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,14 +76,14 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -120,7 +156,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b43f8bab9e6040b29e866ac803c28bc
+      internalID: -500343880916879400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 219
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e21e817f759402995194e6dc18142e
+      internalID: 4041089734221109296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 219
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fc63a0d49d34dafb06a6300b2c4cac
+      internalID: 1105010676190633474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_3
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 219
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5fdc0be6dde4332ae1f23eaf7cae5a
+      internalID: -3250154524996694763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_4
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 219
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8bb2e9a365d4840a7bd8dabae05f94
+      internalID: -6706858432728855679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_5
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 219
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41452143a33564162b8c7e19f290a697
+      internalID: -384827916683724857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141a2cd328cf24ec29a6a5f09ad7491f
+      internalID: -806650085907113932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab23441e2ad274cdf8a0e6cdfc5359fe
+      internalID: 7539876446241955267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06897c853d48c4e33af8abb564ac1078
+      internalID: -1374072116308197243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_9
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 0
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a011315de2e984c22a14e68568d49bdc
+      internalID: 3301432069762478364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_10
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 0
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eae7fc99137941bfb5854a5e6486a79
+      internalID: -689437206461775260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PACK DE ICONOS_VENTANA EMERGENTE_11
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 0
+        width: 215
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5853fc350f61945afb818eba080d9e68
+      internalID: -4394463779503049291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

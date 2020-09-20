@@ -14,4 +14,9 @@ public class Utils : MonoBehaviour
      {
          Application.OpenURL("https://www.oralgalaxy.com.co/contactenos/");
      }
+    
+    public void OpenTutorialURL()
+    {
+        Application.OpenURL("https://www.oralgalaxy.com.co/tutorialSillas.pdf");
+    }
 }
