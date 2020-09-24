@@ -11,5 +11,6 @@ public class ResetStates : MonoBehaviour
     {
         Objects.ForEach(a => a.SetActive(false));
     }
-    
+
+    public BandejaPrincipal bandejaPrincipal;
 }

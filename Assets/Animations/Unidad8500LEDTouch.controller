@@ -241,7 +241,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 6941240411319410188, guid: 2b8bbc282ef9b4373a0f6a63424e642b,
+  m_Motion: {fileID: 5222074243463437774, guid: dc39074529b764154891fe7c498d3074,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -641,7 +641,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 8491259888923011406, guid: 2b8bbc282ef9b4373a0f6a63424e642b,
+  m_Motion: {fileID: 3931183335010945536, guid: dc39074529b764154891fe7c498d3074,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -668,7 +668,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -1876028856389711868, guid: 2b8bbc282ef9b4373a0f6a63424e642b,
+  m_Motion: {fileID: -6191647544309462265, guid: dc39074529b764154891fe7c498d3074,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -707,7 +707,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unidad8500LED
+  m_Name: Unidad8500LEDTouch
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: bajar
@@ -816,7 +816,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Espaldar
     m_StateMachine: {fileID: 5267983496015426486}
-    m_Mask: {fileID: 31900000, guid: 6c27f2a3df16c467a9618583a1b13252, type: 2}
+    m_Mask: {fileID: 31900000, guid: e8771cbbfebdf4b629ab7e74a67b6988, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -931,7 +931,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 3777287630345534370, guid: 2b8bbc282ef9b4373a0f6a63424e642b,
+  m_Motion: {fileID: 4429746481610258331, guid: dc39074529b764154891fe7c498d3074,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -1005,7 +1005,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 3777287630345534370, guid: 2b8bbc282ef9b4373a0f6a63424e642b,
+  m_Motion: {fileID: 4429746481610258331, guid: dc39074529b764154891fe7c498d3074,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -1058,7 +1058,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 8079349355690656772, guid: 2b8bbc282ef9b4373a0f6a63424e642b,
+  m_Motion: {fileID: 8429186119857496371, guid: dc39074529b764154891fe7c498d3074,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 

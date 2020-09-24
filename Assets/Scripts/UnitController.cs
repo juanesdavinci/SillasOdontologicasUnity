@@ -8,6 +8,8 @@ using UnityEngine.UI;
 public class UnitController : MonoBehaviour
 {
 
+    public ResetStates ResetStates;
+    
     public TextMeshProUGUI unitName;
     [HideInInspector] public AnimatorCtrl currAnimator;
     [HideInInspector] public ChangeChairColor ChairColor;
@@ -32,6 +34,8 @@ public class UnitController : MonoBehaviour
         unitName.text = u.name;
         currAnimator = u.Animator;
         ChairColor = u.ChangeColor;
+        ResetStates.ResetObjects();
+        ResetStates.bandejaPrincipal.SetObjectActive(true);
     }
 
     public void StartAnimation(string anim)

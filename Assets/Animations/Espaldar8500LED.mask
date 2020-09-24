@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Espaldar8500LED
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: brazo
+    m_Weight: 0
+  - m_Path: brazo/silla
+    m_Weight: 0
+  - m_Path: brazo/silla/espaldar
+    m_Weight: 1
+  - m_Path: brazo/silla/espaldar/base_espaldar
+    m_Weight: 1
+  - m_Path: brazo/silla/mangueras
+    m_Weight: 0
+  - m_Path: brazo/silla/mangueras/mangueras 1
+    m_Weight: 1
+  - m_Path: brazo/silla/piezas1
+    m_Weight: 0
+  - m_Path: brazo/silla/soporte_brazo2
+    m_Weight: 0
+  - m_Path: brazo/silla/soporte_brazo2/cables2
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_brazo2/polySurface219
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_brazo2/polySurface219/soporte_brazo1
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_brazo2/polySurface219/soporte_brazo1/bandeja1
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_brazo2/polySurface219/soporte_brazo1/bandeja1/botone_bandeja
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_brazo2/polySurface219/soporte_brazo1/bandeja1/magueras2
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_brazo2/polySurface219/soporte_brazo1/bandeja1/pieza2
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_brazo2/polySurface219/soporte_brazo1/bandeja1/polySurface290
+    m_Weight: 1
+  - m_Path: brazo/silla/soporte_brazo2/polySurface219/soporte_brazo1/cables1
+    m_Weight: 1
+  - m_Path: brazo/silla/transparencias
+    m_Weight: 0
+  - m_Path: maguera_grande2
+    m_Weight: 0
+  - m_Path: manguera_grande
+    m_Weight: 0
