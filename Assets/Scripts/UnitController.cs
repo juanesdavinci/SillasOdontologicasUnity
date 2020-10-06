@@ -91,8 +91,66 @@ public class UnitController : MonoBehaviour
     {
         currAnimator.OffLowerChair();
     }
-    
-    
+
+    // Plate
+    public void OnLowerPlate()
+    {
+        currAnimator.OnLowerPlate();
+    }
+    public void OffLowerPlate()
+    {
+        currAnimator.OffLowerPlate();
+    }
+
+    public void OnLiftPlate()
+    {
+        currAnimator.OnLiftPlate();
+    }
+    public void OffLiftPlate()
+    {
+        currAnimator.OffLiftPlate();
+    }
+
+    public void OnOpenPlate()
+    {
+        currAnimator.OnOpenPlate();
+    }
+    public void OffOpenPlate()
+    {
+        currAnimator.OffOpenPlate();
+    }
+
+    public void OnClosePlate()
+    {
+        currAnimator.OnClosePlate();
+    }
+    public void OffClosePlate()
+    {
+        currAnimator.OffClosePlate();
+    }
+
+
+    // Arm Plate
+
+    public void OnOpenArmPlate()
+    {
+        currAnimator.OnOpenArmPlate();
+    }
+    public void OffOpenArmPlate()
+    {
+        currAnimator.OffOpenArmPlate();
+    }
+
+    public void OnCloseArmPlate()
+    {
+        currAnimator.OnCloseArmPlate();
+    }
+    public void OffCloseArmPlate()
+    {
+        currAnimator.OffCloseArmPlate();
+    }
+
+
     public void ChangeColor(int c)
     {
         ChairColor.ChangeColor(c);
@@ -116,6 +174,11 @@ public class UnitController : MonoBehaviour
     public void SetLightIntensity(int intensity)
     {
         currAnimator.SetLightIntensity(intensity);
+    }
+
+    public void SetQuad(bool isEnabled)
+    {
+        currAnimator.SetQuad(isEnabled);
     }
 }
 
